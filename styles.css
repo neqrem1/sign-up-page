@@ -2,6 +2,40 @@ body {
     background-color: #eff0f0;
 }
 
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button {
+    box-shadow: 0 5px #999;
+}
+
+button {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 900;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(59, 106, 109);
+    border-width: 0px;
+}
+
+button:hover {
+    background-color: rgb(81, 136, 161);
+}
+button:active {
+    background-color: rgb(101, 168, 199);
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}
+
+.button {
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
 .image {
     display: flex;
 }
@@ -10,15 +44,49 @@ body {
     display: flex;
 }
 
-.form-container {
+.context {
     width: 1300px;
 }
 
 .text-container {
     padding: 150px;
+    padding-bottom: 100px;
     padding-right: 250px;
 }
 
 strong {
-    font-size: 22px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    width: 200px;
+    border-radius: 7px;
+}
+
+.form-container {
+    width: 1300px;
+    background-color: white;
+    padding-left: 150px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 13px 4px rgb(180, 179, 179);
+
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 600px;
+    max-height: 190px;
+    gap: 10px;
+    flex-direction: column;
+    
 }
