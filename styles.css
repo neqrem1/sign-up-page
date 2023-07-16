@@ -1,0 +1,24 @@
+body {
+    background-color: #eff0f0;
+}
+
+.image {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.form-container {
+    width: 1300px;
+}
+
+.text-container {
+    padding: 150px;
+    padding-right: 250px;
+}
+
+strong {
+    font-size: 22px;
+}
