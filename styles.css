@@ -31,6 +31,11 @@ button:active {
     transform: translateY(3px);
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
 .button {
     padding-top: 30px;
     padding-left: 150px;
@@ -38,6 +43,27 @@ button:active {
 
 .image {
     display: flex;
+    height: 910px;
+    width: 687px;
+    background: url(photo.avif) repeat;
+    border: 2px solid black;
+}
+
+.transbox {
+    height: 140px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.7;
+    width: 687px;
+    margin-top: 200px;
+}
+
+.image p {
+    font-size: 40px;
+    margin: 6%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
 }
 
 .container {
@@ -53,6 +79,8 @@ button:active {
     padding-bottom: 100px;
     padding-right: 250px;
 }
+  
+
 
 strong {
     font-size: 25px;
@@ -89,4 +117,19 @@ input {
     gap: 10px;
     flex-direction: column;
     
+}
+
+.login-text {
+    padding-top: 25px;
+    padding-left: 150px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login-text>a {
+    color: rgb(78, 146, 151);
+}
+
+.login-text>a:visited {
+    color: rgb(58, 116, 121);
 }
