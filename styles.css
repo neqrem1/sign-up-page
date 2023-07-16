@@ -36,6 +36,10 @@ button:active {
     justify-content: center;
 }
 
+#password, #passwordCheck {
+    border-width: 3px;
+}
+
 .button {
     padding-top: 30px;
     padding-left: 150px;
@@ -79,8 +83,17 @@ button:active {
     padding-bottom: 100px;
     padding-right: 250px;
 }
-  
+input {
+    outline: none;
+}
 
+input:invalid {
+    border-color: red;
+}
+
+#match {
+    color: red;
+}
 
 strong {
     font-size: 25px;
@@ -96,14 +109,16 @@ label {
 input {
     width: 200px;
     border-radius: 7px;
+    border-width: 3px;
 }
 
 .form-container {
-    width: 1300px;
+    width: 1069px;
     background-color: white;
     padding-left: 150px;
     padding-top: 20px;
-    box-shadow: 2px 2px 13px 4px rgb(180, 179, 179);
+    border-bottom: none;
+    box-shadow: 2px 2px 20px 4px rgb(180, 179, 179);
 
 }
 
@@ -111,12 +126,23 @@ input {
     display: flex;
     flex-wrap: wrap;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     max-width: 600px;
-    max-height: 190px;
+    max-height: 200px;
     gap: 10px;
-    flex-direction: column;
-    
+    flex-direction: column; 
+}
+
+#match {
+    font-size: 15px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    height: 20px;
+    background-color: white;
+}
+
+#border-div {
+    box-shadow: 2px 2px 13px 4px rgb(180, 179, 179);
 }
 
 .login-text {
